@@ -6,7 +6,7 @@ Bad Bank - the third iteration
 
 The Bad Bank project was deployed via Amazon Web Service S3 bucket and can be accessed here to see its capabilities: https://kerri-rentmeester-fe-bankingapp-p2.s3.us-east-2.amazonaws.com/index.html#/createaccount/
 
-The Bad Bank project, a standalone React app, is "bad" because there is no security. As a front end banking app, however; it has a register and login page, as well as a deposit and withdraw page. Additionally, there is a home page and a page that tracks all the data transactions that occur in one session. The account balance, initialized at zero, is displayed on the deposit page. Additionally, the account balance, initialized at $100, is displayed on the withdraw page. Unfortunately the account balance is not linked across pages at this time.
+The Bad Bank project, a standalone React app, is "bad" because there is no security. As a front end banking app; however, it has a register and login page, as well as a deposit and withdraw page. Additionally, there is a home page and a page that tracks all the data transactions that occur in one session. The account balance, initialized at zero, is displayed on the deposit page. Additionally, the account balance, initialized at $100, is displayed on the withdraw page. Unfortunately the account balance is not linked across pages at this time.
 
 This iteration of the project is a standalone app and has outdated code, incompatible with the latest version of React node.js. I used node.js version 16.20.1 on my local machine to make it work.
 
@@ -18,9 +18,9 @@ The following Validation was employed:
 * The Withdraw input cannot exceed the account balance, otherwise an overdraft warning will appear.
 
 Some Features employed:
-*When hovering over the NavBar, a title appears explaining what each page is/does. 
-*Beware - Account Balance is NOT maintained across pages.
-*Each page has a different color card/content to further distinguish its purpose.
+* When hovering over the NavBar, a title appears explaining what each page is/does. 
+* Beware - Account Balance is NOT maintained across pages.
+* Each page has a different color card/content to further distinguish its purpose.
 
 The Bad Bank project is an example of the following skills and capabilities: routing, context, tracking state, event handling, and parent/child relationships. I employed Bootstrap and CSS for styling, as well as HTML5, JavaScript, and JSX. As such, this project is one component of my professional portfolio. This particular project is based off of a similar activity I worked on in September and October of 2023 from Modules 18, 19, and Portfolio II in the MIT xPro via Emeritus bootcamp I was enrolled in called "Professional Certificate in Coding: Full Stack Development with MERN."
 
@@ -32,9 +32,9 @@ To use the app, follow these steps:
 * Clone the repository or download the code files.
 * Navigate to the project directory in your editor (ex/VSCode). 
 * Type relevant commands:
-**npm install
-*npm install bootstrap
-* npm start
+    * npm install
+    * npm install bootstrap
+    * npm start
 
 # **Usage / How to Run**:
 
