@@ -4,7 +4,7 @@ Bad Bank - the third iteration
 
 # **Description**: 
 
-The Bad Bank project was deployed via Amazon Web Service S3 bucket and can be accessed here to see its capabilities: 
+The Bad Bank project was deployed via Amazon Web Service S3 bucket and can be accessed here to see its capabilities: https://kerri-rentmeester-fe-bankingapp-p2.s3.us-east-2.amazonaws.com/index.html#/createaccount/
 
 The Bad Bank project, a React app, is "bad" because there is no security. As a front end banking app, however; it has a register and login page, as well as a deposit and withdraw page. Additionally, there is a home page and a page that tracks all the data transactions that occur in one session. The account balance, initialized at zero, is displayed on the deposit page and the account balance, initialized at $100, is displayed on the withdraw page. Unfortunately the account balance is not linked across pages at this time.
 
